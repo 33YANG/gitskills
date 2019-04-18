@@ -1,2 +1,2 @@
-# This is a repository about record skill in work
-# Something like git command or others
+# This is a repository of recording skills at work
+Something like git command or others
