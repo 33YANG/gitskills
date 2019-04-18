@@ -1,0 +1,57 @@
+git_command = {
+
+	# git self config
+	git config --global user.name '',
+	git config --global user.email '',
+	git init,
+	git config --global alias.st status,
+	git config --global alias.co checkout,
+	git config --global alias.unstage 'reset HEAD',
+	git config --global alias.last 'log -1',
+	git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+	
+	# git basic command
+	git add {},
+	git commit -m '',
+	git status,
+	git diff {},
+	git log (--graph --pretty=oneline --abbrev-commit),
+	git reflog,
+	git reset --hard {commit_id},
+	git checkout -- {},
+	git reset head {},
+	git rm {},
+	
+	# git remote origin respository
+	ssh-keygen -t rsa -C "youremail@example.com", # init remote respository
+	git remote add origin git@github.com:your_github_name/respository_name.git,
+	git push -u origin master / git push origin master,
+	git pull,
+	git clone git@github.com:your_github_name/respository_name.git,
+	git remote -v,
+	git remote rm origin,
+	
+	# git branch, merge
+	git checkout -b {branch_name} = git branch dev + git checkout dev,
+	git branch,
+	git branch --set-upstream-to=origin/dev dev,
+	git merge {branch_name},
+	git merge --no-ff -m 'message' {branch_name},
+	git branch -d {branch_name}, # delete branch
+	git branch -d {branch_name}, # forced delete branch
+	git stash /list,
+	git stash pop = git stash apply + git stash drop,
+	git rebase,
+	
+	#tags
+	git tag /-a {tag_name} -m 'msg' {commit_id},
+	git show {tag_name},
+	git tag -d {tag_name} / + git push origin :refs/tags/{tag_name},,
+	git push origin {tag_name} / git push origin --tags # push all tags
+	
+	# git ignore
+	git add -f {},
+	git check-ignore -v {},
+	
+	# create private git servers /linux
+}
