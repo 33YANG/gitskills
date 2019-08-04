@@ -1,4 +1,4 @@
-## C++语言学习笔记
+## JavaScript 语言学习笔记
 > 2019/4/22 起 大连 Panasonic 现场
 >   \[ [MDN JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Introduction) \][【附某前端总结链接】](https://www.cnblogs.com/onepixel/p/7021506.html)[[ECMAScript 6 入门]](http://es6.ruanyifeng.com/#README) [[网道JavaScript 教程]](https://wangdoc.com/javascript/basic/history.html)
 
@@ -58,14 +58,13 @@
 		
 #### 3.循环与迭代
 
--  `label`:  
+-  `label`
 > 一个`label`提供一个引用到程序其他位置的标识符，如`label`标识循环使用`break,continue`跳转到其位置；  
-
-	```javascript
-	labelLoop: while (true) {
-	    break labelLoop;
-	}
-	```
+```javascript
+labelLoop: while (true) {
+    break labelLoop;
+}
+```
 - `for...in`：循环一个指定的变量来循环一个**对象**所有可枚举的属性；遍历的结果和数组元素的下标不同；
 - `for...of`：在可迭代的对象`Array,Map,Set,参数对象Arguments`创建了一个循环，对值的每一个独特的属性调用一个将被执行的自定义的和语句挂钩的迭代；遍历的结果是元素的值；
 #### 4. 函数
@@ -214,8 +213,9 @@ console.log(b) // olleh
 ```
 ##### 3. 牛顿迭代公式 求平方根[【公式链接】](https://blog.csdn.net/u014485485/article/details/77599953)
 > [附：MakrDown公式编辑规则](https://www.zybuluo.com/codeep/note/163962)
-
+> 图片格式![防公式不显示](./捕获.PNG)
 $$ x_{k + 1} = \frac {1} {2}\left( x_k + \frac {a} {x_k} \right)$$
+
 - 算法题
 ```javascript
 var mySqrt = function(x) {
@@ -244,7 +244,7 @@ for (let i = 0; i <= rowNumber; i++) {
 ##### 6. 摩尔投票法
 > 给定一个整型数组，找出该数组中出现次数大于数组长度一半的值。查询知在任何数组中，出现次数大于该数组长度一半的值只能有一个。
 > **摩尔投票法**的基本思想很简单，在每一轮投票过程中，从数组中找出一对不同的元素，将其从数组中删除。这样不断的删除直到无法再进行投票，如果数组为空，则没有任何元素出现的次数超过该数组长度的一半。如果只存在一种元素，那么这个元素则可能为目标元素。
-#####7. 冒泡排序与快速排序（C语言版）
+##### 7. 冒泡排序与快速排序（C语言版）
 ```C
 void bubbleSort(int* nums, int numSize)
 {
@@ -288,8 +288,8 @@ void quickSort(int* nums, int left, int right)
 
 qucikSort(nums, 0, len - 1);
 ```
-#####8. `1+3+5+7+9+…+(2n-1)=n^2`，即完全平方数是前n个连续奇数的和
-#####9.  ???
+##### 8. `1+3+5+7+9+…+(2n-1)=n^2`，即完全平方数是前n个连续奇数的和
+##### 9.  ???
 ```javascript
 let str = 'abc';
 console.log(str[2]) // 'c'
