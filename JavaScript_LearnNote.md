@@ -1,6 +1,6 @@
-## JavaScript 语言学习笔记
+## JavaScript 学习笔记
 > 2019/4/22 起 大连 Panasonic 现场
->   \[ [MDN JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Introduction) \][【附某前端总结链接】](https://www.cnblogs.com/onepixel/p/7021506.html)[[ECMAScript 6 入门]](http://es6.ruanyifeng.com/#README) [[网道JavaScript 教程]](https://wangdoc.com/javascript/basic/history.html)
+>   [ [MDN JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Introduction) \][【附某前端总结链接】](https://www.cnblogs.com/onepixel/p/7021506.html)[[ECMAScript 6 入门]](http://es6.ruanyifeng.com/#README) [[网道JavaScript 教程]](https://wangdoc.com/javascript/basic/history.html)
 
 #### 1. 基础
 * **声明**: 变量以字母, _, $, 这三种开头
@@ -214,6 +214,7 @@ console.log(b) // olleh
 ##### 3. 牛顿迭代公式 求平方根[【公式链接】](https://blog.csdn.net/u014485485/article/details/77599953)
 > [附：MakrDown公式编辑规则](https://www.zybuluo.com/codeep/note/163962)
 > 图片格式![防公式不显示](./捕获.PNG)
+
 $$ x_{k + 1} = \frac {1} {2}\left( x_k + \frac {a} {x_k} \right)$$
 
 - 算法题
@@ -289,7 +290,7 @@ void quickSort(int* nums, int left, int right)
 qucikSort(nums, 0, len - 1);
 ```
 ##### 8. `1+3+5+7+9+…+(2n-1)=n^2`，即完全平方数是前n个连续奇数的和
-##### 9.  ???
+##### 9.  Question ???
 ```javascript
 let str = 'abc';
 console.log(str[2]) // 'c'
