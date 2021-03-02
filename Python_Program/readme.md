@@ -5,7 +5,7 @@
 #### 1. `consolidateFile.py`
 > 将一个目录下的所有纯文本文件中的代码，整合成一个 txt 文件
 #### 2. `recoverFiles.py`
-> 将上面插件整合的 txt 文件恢复成原有目录结构的文件形式
+> 将上面脚本整合的 txt 文件恢复成原有目录结构的文件形式
 #### 3. `modify.py`
 > 批量修改在 .c 文件中的特定字符串 （testFile.zip 为其需修改的源文件）
 #### 4. `rename.py`
