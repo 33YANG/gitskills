@@ -1,4 +1,4 @@
-## C语言学习笔记
+## Python学习笔记
 > 2019/6/18 起 大连 Panasonic 现场  \[ [廖雪峰Python教程](https://www.liaoxuefeng.com/wiki/1016959663602400/1017063413904832) \]
 
 #### 1. 基础

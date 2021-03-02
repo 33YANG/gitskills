@@ -15,6 +15,7 @@
   * `String`
   * `Number`
   * `Symbol`，一种实例是唯一不可改变的数据类型，ES6+
+  
 - **`Map`和`Object`**：
 	> - 一个 `Object` 的键只能是字符串或者 `Symbols`，但一个`Map`的键可以是任意值，包括函数、对象、基本类型。
 	> - `Map` 中的键值是有序的，而添加到对象中的键则不是。因此，当对它进行遍历时，`Map` 对象是按插入的顺序返回键值。（`for...of`）
@@ -36,7 +37,7 @@
 	set.size()
 	let arr = Array.from(new Set(arr));
 	```
-        	
+  
 * **字面量**， 特殊字符\n, 转义字符\\
 
 #### 2. 流程控制与错误处理
@@ -169,18 +170,19 @@ labelLoop: while (true) {
 	var a = new Date;
 	a instanceof Date // true
 	'abc' instanceof String // false
- 	```
+	```
+```
 - 扩展语句：允许一个表达式在原地展开
 	```javascript
 	var a = [1, 2, 3];
 	var b = [0, ...a, 4, 5, 6];
-	```
+```
 #### 6. 数字和日期
 - 整数数据在运算完毕后，其值在 ± (2<sup>53</sup> − 1)内 可以认为是准确的
 - `Number Math Date对象`
  ```javascript
   var date = new Date([parameters]) // para: () / "月 日, 年 时:分:秒." / '年，月，日，时，分，秒'
-  ```
+ ```
 #### 7. 文字格式
 - `Unicode`字元逸出：任何字符都可以用16进制数转义, 这使得通过`Unicode`转义表示大于`0x10FFFF`的字符成为可能
 - 字符串对象
