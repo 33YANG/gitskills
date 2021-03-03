@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # This is a plugin program about consolidate folder file to one file, please put this file in your project root folder and run
-__author__ = 'liyang'
+__author__ = '33YANG'
 __date__ = '2020-5-29'
 
 import os

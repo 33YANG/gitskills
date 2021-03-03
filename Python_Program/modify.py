@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # This is a plugin program about modify files content under specific rules
-__author__ = 'liyang'
+__author__ = '33YANG'
 __date__ = '2019-5-28'
 
 import os

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-__author__ = 'liyang'
+__author__ = '33YANG'
 
 import os
 
